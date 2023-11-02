@@ -1,3 +1,76 @@
-body {
-    background-color: hsl(220, 15%, 55%);
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightgray: hsl(212, 45%, 89%);
+    --grayishblue: hsl(220, 15%, 55%);
+    --darkblue: hsl(218, 44%, 22%);
+    --purple-dark: hsl(228, 45%, 44%);
+    --body-fonts: Outfit;
   }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--lightgray);
+    font-family: var(--body-fonts);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+    font-size: 15px;
+}
+
+.container__card__body {
+    background-color: var(--white);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 15px 30px 15px;
+}
+
+.container__card__body img {
+    width: 290px;
+    height: 290px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.container__card__body h1 {
+    font-weight: 700;
+    width: 265px;
+    font-size: 22px;
+    color: var(--darkblue);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container__card__body p {
+    font-weight: 400;
+    width: 265px;
+    color: var(--grayishblue);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.attribution {
+    bottom: 20px;
+    position: absolute;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.attribution a {
+    color: var(--purple-dark)
+    }
