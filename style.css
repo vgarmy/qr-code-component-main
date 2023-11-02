@@ -25,26 +25,27 @@ body {
     flex-direction: column;
     height: 95vh;
     font-size: 15px;
+    line-height: 1.4;
 }
 
 .container__card__body {
     background-color: var(--white);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 15px 15px 30px 15px;
+    padding: 1rem 1rem 3rem 1rem;
 }
 
 .container__card__body img {
-    width: 290px;
-    height: 290px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    -webkit-border-radius: 0.75rem;
+    -moz-border-radius: 0.75rem
+    border-radius: 0.75rem;
 }
 
 .container__card__body h1 {
@@ -52,7 +53,7 @@ body {
     width: 265px;
     font-size: 22px;
     color: var(--darkblue);
-    margin-top: 20px;
+    margin: 2rem 0 1rem;
     text-align: center;
 }
 
@@ -60,7 +61,6 @@ body {
     font-weight: 400;
     width: 265px;
     color: var(--grayishblue);
-    margin-top: 20px;
     text-align: center;
 }
 
@@ -74,3 +74,10 @@ body {
 .attribution a {
     color: var(--purple-dark)
     }
+
+
+    @media screen and (max-width: 600px) {
+        .attribution {
+            font-size: 11px;
+        }
+      }
