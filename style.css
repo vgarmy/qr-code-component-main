@@ -59,25 +59,25 @@ body {
 
 .container__card__body p {
     font-weight: 400;
-    width: 265px;
+    width: 240px;
     color: var(--grayishblue);
     text-align: center;
 }
 
-.attribution {
+.footer {
     bottom: 20px;
     position: absolute;
     text-align: center;
     padding: 0 20px;
 }
 
-.attribution a {
+.footer a {
     color: var(--purple-dark)
 }
 
 
 @media screen and (max-width: 600px) {
-    .attribution {
+    .footer {
         font-size: 11px;
     }
 }
