@@ -28,7 +28,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## My process
 
-Star with the basic css, colors and font. The over to create the html coding för each section, add the information and ikage then back to create
+Start with the basic css, colors and font. Then over to create the html coding för each section, add the information and image then back to create
 the css for the card.
 
 ### Built with
