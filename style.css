@@ -14,18 +14,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
-body {
+body{
     background-color: var(--lightgray);
     font-family: var(--body-fonts);
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+main {
+    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 95vh;
-    font-size: 15px;
-    line-height: 1.4;
 }
 
 .container__card__body {
@@ -69,6 +73,7 @@ body {
     position: absolute;
     text-align: center;
     padding: 0 20px;
+
 }
 
 .footer a {
